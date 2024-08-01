@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+   
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     
+    <title>Book Appointment at Glamour Grove </title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="#">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="css/colors.css">
+
+    <link rel="stylesheet" href="css/versions.css">
+    
+    <link rel="stylesheet" href="css/responsive.css">
+   
+    <link rel="stylesheet" href="css/custom.css">
+
+
+
+</head>
+<body class="barber_version">
+
+   
+    <div id="preloader">
+        <div class="cube-wrapper">
+		  <div class="cube-folding">
+			<span class="leaf1"></span>
+			<span class="leaf2"></span>
+			<span class="leaf3"></span>
+			<span class="leaf4"></span>
+		  </div>
+		  <span class="loading" data-name="Loading">Bros Cave </span>
+		</div>
+    </div>
+
+    <div id="wrapper">
+
+        
+        <div id="sidebar-wrapper">
+			<div class="side-top">
+				<div class="logo-sidebar">
+					<a href="index.html"><img src="img/Barber.jpeg" alt="image"></a>
+				</div>
+				<ul class="sidebar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a class="active" href="appointment.html">Appointment</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+        </div>
+    
+        <div id="page-content-wrapper">
+            <a href="#menu-toggle" class="menuopener" id="menu-toggle"><i class="fa fa-bars"></i></a>
+			
+            <div class="all-page-bar">
+				<div class="container">
+					<div class="row">
+                        
+						<div class="col-xs-12 col-sm-12 col-md-12">
+                            
+							<div class="title title-1 text-center">
+								<div class="title--heading">
+									<h1>Appointment</h1>
+								</div>
+								<div class="clearfix"></div>
+								<ol class="breadcrumb">
+									<li><a href="index.html">Home</a></li>
+									<li class="active">Appointment</li>
+								</ol>
+								
+							</div>
+						
+						</div>
+					</div>
+				</div>
+			</div>
+
+            <section class="section nopad cac text-center">
+                <a href="#"><h3>Book  an appointment form below!</h3></a>
+            </section>
+
+            <div id="appointment" class="section wb">
+                <div class="container-fluid">
+                    <div class="section-title row text-center">
+                        <div class="col-md-8 col-md-offset-2">
+                        <small>LET'S MAKE AN APPOINTMENT FOR YOU</small>
+                        <h3>Book now</h3>
+                        <hr class="grd1">
+                        <p class="lead">Follow the instructions to select your service, preferred date and time, and other details.   </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+						<div class="col-md-6">
+							<div class="appointment-left">
+								<h2>Opening Time</h2>
+								<div class="appointment-time">
+									<ul>
+										<li>
+											<span>Monday </span><span>9am-6pm</span>
+										</li>
+										<li>
+											<span>Tuesday </span><span>9am-6pm</span>
+										</li>
+										<li>
+											<span>Wednesday </span><span>9am-6pm</span>
+										</li>
+										<li>
+											<span>Thursday </span><span>9am-6pm</span>
+										</li>
+										<li>
+											<span>Friday  </span><span>9am-6pm</span>
+										</li>
+										<li>
+											<span>Saturday  </span><span>10am-4pm</span>
+										</li>
+										<li>
+											<span>Sunday  </span><span>CLOSED</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+                        <div class="col-md-6">
+                            <div class="contact_form">
+                                <div id="message"></div>
+                                <form id="contactform" class="row" action="contact.php" name="contactform" method="post">
+                                    <fieldset class="row-fluid">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last Name">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                            <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone">
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <label class="sr-only">Select Time</label>
+                                            <select name="select_service" id="select_service" class="selectpicker form-control" data-style="btn-white">
+                                                <option value="selecttime">Select Time</option>
+                                                <option value="Weekdays">Weekdays</option>
+                                                <option value="Weekend">Weekend</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Give us more details.."></textarea>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                                            <button type="submit" value="SEND" id="submit" class="btn btn-light btn-radius btn-brd grd1 btn-block subt">Get Appointment</button>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+                               
+                
+        </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    
+    <script src="js/all.js"></script>
+	<script src="js/responsive-tabs.js"></script>
+    
+    <script src="js/custom.js"></script>
+
+    
+    <script>
+    (function($) {
+        "use strict";
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+        smoothScroll.init({
+            selector: '[data-scroll]',
+            selectorHeader: null,
+            speed: 500, 
+            easing: 'easeInOutCubic',
+            offset: 0, 
+            callback: function ( anchor, toggle ) {} 
+        });
+    })(jQuery);
+    </script>
+
+</body>
+</html>
